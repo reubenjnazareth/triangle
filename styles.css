@@ -1,0 +1,30 @@
+:root {
+    --darker-color: #1C0C5B;
+    --dark-color: #3D2C8D;
+    --lighter-color: #916BBF;
+    --light-color: #C996CC;
+
+}
+
+body {
+    text-align: center;
+    background-color: var(--light-color);
+    margin: auto;
+
+
+}
+
+.container  {
+    padding: 3rem;
+    font-size: xx-large;
+    block-size: auto;
+
+}
+.nav-link {
+    
+
+}
+
+.navbar {
+
+}

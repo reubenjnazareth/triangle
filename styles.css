@@ -8,16 +8,24 @@
 
 body {
     text-align: center;
-    background-color: var(--light-color);
+    background-color:
     margin: auto;
 
 
 }
 
 .container  {
-    padding: 3rem;
-    font-size: xx-large;
-    block-size: auto;
+    display: flex;
+    flex-direction: column;
+    width: 70vh;
+    margin: auto;
+    text-align: center;
+    border: 1px solid gray;
+    background-color: #00292D;
+    color: white;
+    border-radius: 7px;
+    font-weight: bold;
+    margin-top: 15px;
 
 }
 .nav-link {

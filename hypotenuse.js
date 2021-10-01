@@ -1,7 +1,8 @@
-const sides = document.querySelector(".side-input");
+const sides = document.querySelectorAll(".side-input");
 const calculateBtn = document.querySelector("#calc-hyp-btn");
+const output = document.querySelector("#outputHypotenuse");
 
-function calcSumOfsq (a, b) {
+function calcSumOfsq(a, b) {
     const sumOfsq = a*a + b*b;
     //console.log(sumOfsq)
     return sumOfsq;
@@ -9,7 +10,8 @@ function calcSumOfsq (a, b) {
 
 function calcHypotenuse() {
     const sumOfsq = calcSumOfsq(Number(sides[0].value), Number(sides[1].value));
-    console.log(sumOfsq);
+    //console.log(sumOfsq);
+    
 } 
 
 
@@ -17,3 +19,4 @@ function calcHypotenuse() {
 
 
 calculateBtn.addEventListener("click", calcHypotenuse)
+//Number(sides[0].value), Number(sides[1].value)

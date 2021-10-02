@@ -1,15 +1,6 @@
-:root {
-    --darker-color: #1C0C5B;
-    --dark-color: #3D2C8D;
-    --lighter-color: #916BBF;
-    --light-color: #C996CC;
-
-}
 
 body {
-    text-align: center;
-    background-color:
-    margin: auto;
+    padding:1rem;
 
 
 }
@@ -17,7 +8,7 @@ body {
 .container  {
     display: flex;
     flex-direction: column;
-    width: 70vh;
+    width: 100vh;
     margin: auto;
     text-align: center;
     border: 1px solid gray;
@@ -26,9 +17,12 @@ body {
     border-radius: 7px;
     font-weight: bold;
     margin-top: 15px;
+    padding: 4rem;
 
 }
 .nav-link {
+    font-size: 30px;
+    padding: 1rem;
     
 
 }
@@ -36,3 +30,42 @@ body {
 .navbar {
 
 }
+label {
+    padding: 1rem;
+    font-size: larger;
+}
+.angle-input, .side-input {
+    width: 200px;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 0.75rem;
+
+    
+}
+
+h1 {
+    font-size: 60px;
+}
+
+button {
+    padding: 1rem;
+    width: 150px;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#output {
+    font-size: 25px;
+}
+
+.question-container{
+    font-size: 15px;
+}
+
+.questionStyle {
+    font-size: 22px;
+}
+
